@@ -81,11 +81,6 @@ RUN mkdir $ANDROID_HOME && \
         echo y | $ANDROID_HOME/tools/bin/sdkmanager "$p"; \
     done
 
-#           system-images;android-17;google_apis;armeabi-v7a \
-# system-images;android-23;google_apis;x86
-#           emulator \
-
-
 # Install Gradle to /opt/gradle-${GRADLE_VER}
 RUN unzip gradle-${GRADLE_VER}-bin.zip && rm gradle-${GRADLE_VER}-bin.zip
 
