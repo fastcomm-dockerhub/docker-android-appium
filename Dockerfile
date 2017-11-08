@@ -44,7 +44,10 @@ RUN gem install --no-document \
         cucumber \
         geocode \
         appium_lib \
-        appium_console
+        appium_console \
+        byebug \
+        touch_action \
+        builder
 
 WORKDIR /opt
 
